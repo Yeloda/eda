@@ -4,12 +4,12 @@
     "slug": "eda",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/EDA_Logo_White_1024.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/EDA_Logo_White.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#1c1c1c"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -22,12 +22,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+        "foregroundImage": "./assets/EDA_Logo_White_1024.png",
+        "backgroundColor": "#1c1c1c"
+      },
+      "package": "com.yeloda.eda"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/favicon_1024.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ad4a30e7-6e8f-44ea-9b6a-8d166d6afb0e"
+      }
     }
   }
 }
